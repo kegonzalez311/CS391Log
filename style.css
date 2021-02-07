@@ -1,0 +1,86 @@
+/* Variables */
+:root {
+    --cornflower: #8ECAE6;
+    --bluegreen: #7ec7da;
+    --prussian: #023047;
+    --honey: #ffb703;
+    --orange: #fb8500;
+  }
+
+/* navigation bar */
+  ul.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: var(--prussian);
+    width: 100%;
+  }
+  
+  li.nav {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: var(--cornflower);
+  }
+
+  html,body {
+    padding:0; margin:0;
+    background-color: var(--bluegreen);
+  }
+
+  h1{
+    text-align: center;
+    font-size: 600%;
+    margin-top: 15%;
+    color: var(--honey);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  h2{
+    margin: 1%;
+    font-size: 250%;
+    color: var(--honey);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  h3{
+    text-align: center;
+    font-size: 200%;
+    margin-top: 5%;
+    color: white;
+  }
+
+  h4{
+    margin-left: 1%;
+    color: white;
+  }
+
+/* Table */
+  table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 96%;
+    margin: 2%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    color: white;
+  }
+  
+  ul.first{
+      background-color: var(--honey);
+  }
+  
